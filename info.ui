@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>650</width>
+    <height>340</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Информация об игре</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>0</y>
+      <width>621</width>
+      <height>341</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;2048 — браузерная игра, написанная 19-летним итальянским разработчиком Габриэле Чирулли на языке программирования JavaScript. Игровое поле имеет форму квадрата 4x4. Целью игры является получение плитки номинала «2048» (при желании можно продолжить дальше). Игра «2048» была написана менее чем за два дня в качестве упражнения в программировании; по словам автора, приведённым газетой Los Angeles Times, Чирулли посчитал своё творение «случайным вторжением в игровую индустрию» и не планирует в дальнейшем заниматься разработкой игр. Прообразом «2048» является коммерческая игра Threes; её создатели остались недовольными успехом «2048» и назвали игру Чирулли «испорченным плагиатом». После выхода Threes в App Store появилось несколько её клонов, в том числе игры «1024» и «2048», созданные другими разработчиками; при разработке своей версии Чирулли вдохновлялся этими играми.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
