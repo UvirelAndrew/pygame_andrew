@@ -25,6 +25,7 @@ dark_yellow = (204, 204, 0)
 orange = (251, 82, 0)
 brown = (193, 63, 0)
 
+
 color_dict = {
     0: light_grey,
     2: white,
@@ -40,3 +41,21 @@ color_dict = {
     2048: brown,
     4096: red,
 }
+
+
+def get_color(i):
+    if i in color_dict:
+        return color_dict[i]
+    else:
+        return red
+
+
+points = 0
+board_size = 4
+matrix = [
+    [0, 0, 0, 0],
+    [0, 0, 0, 0],
+    [0, 0, 0, 0],
+    [0, 0, 0, 0]
+]
+last_matrix = []
